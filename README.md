@@ -22,6 +22,9 @@ The Stone Paper Scissors smart contract is a digital implementation of the class
   - Rock beats Scissors, Scissors beat Paper, and Paper beats Rock.
 - The winning player's score is incremented.
 
+![Screenshot 2024-10-18 192954](https://github.com/user-attachments/assets/2fe8ad1c-a244-40fb-a3eb-f1a6d25551f9)
+
+
 ### Functions
 - `play(player1_choice: u8, player2_choice: u8) -> (u8, u128, u128)`: Executes a game round, returning the result and current scores.
 - `get_results() -> (u128, u128)`: Retrieves the current scores for both players.
